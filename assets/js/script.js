@@ -1,11 +1,11 @@
 // Assignment Code
 
-var generateBtn = document.querySelector("#generate");
+let generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  let password = generatePassword();
+  let passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 }
@@ -17,11 +17,18 @@ generateBtn.addEventListener("click", writePassword);
 
 // Pseudocode 
 
-
+// confirm Statements - TRUE or FALSE: 
+let confirmUpper = confirm ("Do you want to include uppercase characters?");
+let confirmLower = confirm ("Do you want to include lowercase characters?");
+let confirmNum = confirm ("Do you want to include numbers?");
+let confirmSpecial = confirm ("Do you want to include special characters?");
+//Validate that at least one array has been selected.
 
 // prompt statements
 //(prompt) Enter a number to represent the length of your password (must be at least 8 characters and no more than 128 characters)
 let promptLength = prompt ("Enter a number for the length for your password. Enter at least 8, but no more than 128.");
+
+
 
 //Character arrays needed for password generation:
 //uppercase letters
@@ -34,15 +41,33 @@ let numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 let special = ["&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~", "!", "#", "$", "%"];
 //Question: should these be arrays or strings? Possibly need to try both ways.
 
+//If  statements to determine which arrays need to be used in password generation. If true, add (concatenate) array.
+if (confirmUpper) {
+
+}
+
+
+if (confirmLower) {
+  
+}
+
+
+if (confirmNum) {
+  
+}
+
+
+if (confirmSpecial) {
+  
+}
+
+
+
+
 //Click "generate password" button to begin password generation process
 //Present prompts to determine criteria:
 
-// confirm Statements - TRUE or FALSE: 
-let confirmUpper = confirm ("Do you want to include uppercase characters?");
-let confirmLower = confirm ("Do you want to include lowercase characters?");
-let confirmNum = confirm ("Do you want to include numbers?");
-let confirmSpecial = confirm ("Do you want to include special characters?");
-//Validate that at least one array has been selected.
+
 
 // alert statements
 //(Alert) if number <8 or >128. "You must select a length of at least 8 characters and no more than 128 characters"
