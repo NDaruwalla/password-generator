@@ -17,7 +17,6 @@ SO THAT I can create a strong password that provides greater security
 ## Pseudo-code / Algorithms
 
 ```
-
 Character arrays needed for password generation:
 uppercase letters
 let uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
@@ -94,7 +93,6 @@ The following animation shows my web application's appearance and functionality:
 * The password generated contains all selected criteria.
 * The password is displayed in an alert (or written on the page)
 
-```
 
 ## Deployed application
 
