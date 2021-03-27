@@ -17,7 +17,7 @@ SO THAT I can create a strong password that provides greater security
 
 ## Screen Capture
 
-The following animation shows my web application's appearance:
+The following screen capture shows my web application's appearance:
 
 ![portfolio capture](./assets/images/capture.jpg)
 
