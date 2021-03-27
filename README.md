@@ -14,17 +14,12 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 ```
 
-## Mock-up
-
-The following image shows the web application's appearance and functionality:
-
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
 ## Screen Capture
 
-The following animation shows my web application's appearance and functionality:
+The following animation shows my web application's appearance:
 
-![portfolio demo](./assets/images/password-generator.jpg)
+![portfolio capture](./assets/images/capture.jpg)
 
 
 ## Key Features of this application
@@ -34,7 +29,7 @@ The following animation shows my web application's appearance and functionality:
 * Employee is able to select the length of the password (at least 8 characters and no more than 128 characters)
 * Application ensures that at least 8 characters and no more than 128 characters are selected
 * The password is randomely generated using the combined selected criteria.
-* The password is displayed in an alert (or written on the page)
+* The password is displayed in the text area on the page.
 
 
 ## Deployed application
